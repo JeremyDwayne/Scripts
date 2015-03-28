@@ -1,8 +1,8 @@
 # Scripts
 #### Installation
-Run this command to hide the script folder after you clone it! Also needed if you want to copy the aliases verbatim.
+Run this command to clone and "hide" the script folder! Also needed if you want to copy the aliases verbatim.
 
-`$ mv Scripts ~/.scripts`
+`$ git clone https://github.com/JeremyDwayne/Scripts.git ~/.scripts`
 
 #### Aliases
 Here are the aliases I use in my shell to utilize these scripts. This allows you to save this folder wherever you want. Just modify the path if you dont clone to your home directory.
