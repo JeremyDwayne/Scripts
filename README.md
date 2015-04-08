@@ -1,4 +1,4 @@
-# Scripts
+Scripts
 #### Installation
 Run this command to clone and "hide" the script folder! Also needed if you want to copy the aliases verbatim.
 
@@ -14,13 +14,15 @@ alias mdtopdf='source ~/.scripts/MDtoPDF.sh'
 ````
 
 #### MDtoPDF
-MDtoPDF Uses **grip** and **wkhtmltopdf** to convert a markdown file into a github markdown style pdf file.
+MDtoPDF Uses **Python Markdown** and **wkhtmltopdf** to convert a markdown file into a pdf file.
 
-This script uses grip to export the markdown file to an html file, then it uses wkhtmltopdf to convert the html file to a pdf. It takes a little time to convert to PDF, but is a lot simpler than having to open up chrome.
+Usage: `mdtopdf filenamewithoutextension optionaldirectory/`
 
-* https://github.com/joeyespo/grip 
+This script uses Python Markdown to export the markdown file to an html file, then it uses wkhtmltopdf to convert the html file to a pdf. It can take a little time to convert to PDF, but is a lot simpler than using pandoc in my opinion.
+
+* https://pythonhosted.org/Markdown/install.html
 Install (Requires Python):
-`$ sudo pip install grip`
+`$ sudo pip install markdown`
 * http://wkhtmltopdf.org/
 Install:
 `$ sudo apt-get install wkhtmltopdf`
