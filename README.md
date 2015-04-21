@@ -16,7 +16,8 @@ alias mdtopdf='source ~/.scripts/MDtoPDF.sh'
 #### MDtoPDF
 MDtoPDF Uses **Python Markdown** and **wkhtmltopdf** to convert a markdown file into a pdf file.
 
-Usage: `mdtopdf filenamewithoutextension optionaldirectory/`
+Usage: `mdtopdf <filenamewithoutextension> <optionaldirectory>`
+Example: `mdtopdf notes pdf` would convert notes.md to a pdf and save it to the /pdf directory
 
 This script uses Python Markdown to export the markdown file to an html file, then it uses wkhtmltopdf to convert the html file to a pdf. It can take a little time to convert to PDF, but is a lot simpler than using pandoc in my opinion.
 
